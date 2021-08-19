@@ -15,11 +15,14 @@ body{
 
 .flex-container{
     display: flex;
+    background: #fff;
+    flex-wrap: wrap;
 }
 
 .box{
     Height:100px;
-    min-width: 100px;  
+    min-width: 200px;
+    flex-grow: 1;  
 }
 
 .one{
